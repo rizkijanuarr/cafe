@@ -11,16 +11,15 @@ class Post extends Model
     use HasFactory;
 
     /**
-     * guarded
-     *
-     * @var array
+     * GUARDED ATTRIBUTES
      */
     protected $guarded = [];
 
     /**
-     * image
-     *
-     * @return Attribute
+     * IMAGE CAST
+     * TODO
+     * use Illuminate\Database\Eloquent\Casts\Attribute;
+     * Pastikan kode diatas sudah di import!
      */
     protected function image(): Attribute
     {

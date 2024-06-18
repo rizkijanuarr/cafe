@@ -10,9 +10,7 @@ class Tag extends Model
     use HasFactory;
 
     /**
-     * guarded
-     *
-     * @var array
-     */
+    * GUARDED ATTRIBUTES
+    */
     protected $guarded = [];
 }
